@@ -1,0 +1,25 @@
+{
+  "all_users":
+  [
+    {
+      "login": "admin",
+      "password": "admin",
+      "status": "admin"
+    },
+    {
+      "login": "user1",
+      "password": "user1",
+      "status": "user"
+    },
+    {
+      "login": "user2",
+      "password": "user2",
+      "status": "user"
+    },
+    {
+      "login": "user3",
+      "password": "user3",
+      "status": "user"
+    }
+  ]
+}

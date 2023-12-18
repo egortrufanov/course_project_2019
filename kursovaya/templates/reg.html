@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <style>
+        body {
+            background-image: url(https://i.gifer.com/uVc.gif);
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .square {
+            width: 350px;
+            background: linear-gradient(-45deg, brown, orangered);
+            border: 5px solid crimson;
+            border-radius: 10px;
+            margin-top: 300px;
+            text-align: center;
+
+        }
+        .button {
+            width: 200px;
+            color: yellow;
+            background: linear-gradient(-45deg, brown, orangered);
+            padding: 8px;
+            border-radius: 10px;
+            border: 2px solid crimson;
+            font-family: "Comic Sans MS";
+        }
+        h3 {
+            font-family: "Comic Sans MS";
+        }
+        button.button:hover {
+            background: linear-gradient(45deg, brown, orangered);
+        }
+    </style>
+</head>
+<body>
+<div class="square">
+<h3 align="center"><strong><font color="yellow" >Регистрация</font></strong></h3>
+    {% if login == none and pass == none %}
+        <form method="get" action="" align="center">
+            <p><h3><strong>Логин: </strong><input id = "name" name="login"></h3></p>
+            <p><h3><strong>Пароль: </strong><input type="password" name="pass"></h3></p>
+            <h3><input class="button" type="submit" value="Зарегистрироваться"/></h3>
+        </form>
+    {% endif %}
+    <a href="/">
+        <h3><button class="button">Назад</button></h3>
+    </a>
+</div>
+</body>
+</html>

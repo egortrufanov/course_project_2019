@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Автомобили</title>
+    <style>
+        body {
+            background-image: url(http://eskipaper.com/images/cars-wallpaper-7.jpg);
+            background-attachment: fixed;
+        }
+        .button {
+            width: 300px;
+            height: 70px;
+            color: black;
+            background: #F0F8FF;
+            border-radius: 10px;
+            margin-top: 10px;
+            border: 5px solid #fa7662;
+            font-family: "Comic Sans MS";
+        }
+        button.button:hover {
+            background: linear-gradient(0deg, #F0F8FF, #a8a8a8);
+        }
+        .frame {
+         width: 400px;
+         height: 300px;
+         background: none;
+         border: 5px;
+         border-radius: 10px;
+         text-align: center;
+         margin-top: 170px;
+         margin-left: 40px;
+        }
+        h3{
+            font-family: "Comic Sans MS";
+        }
+        h1{
+            font-family: "Comic Sans MS";
+        }
+    </style>
+</head>
+<body>
+<div class="frame">
+<h1>Список автомобилей</h1>
+    {% for auto in autos %}
+        <a href="/auto/{{ auto.id }}">
+            <button class="button" name="autoid"><h3 align="center">{{ auto.name }}</h3></button>
+        </a><br><br>
+    {% endfor %}
+</div>
+</body>
+</html>

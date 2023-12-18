@@ -1,0 +1,41 @@
+{
+  "automobiles":
+  [
+    {
+      "id": "0",
+      "marka": "Volkswagen",
+      "name": "Volkswagen Polo",
+      "type": "седан",
+      "date": "01.09.2019",
+      "owner": "Иванов И.В.",
+      "description": "Недавно приобретенный автомобиль"
+    },
+    {
+      "id": "1",
+      "marka": "Hyundai",
+      "name": "Hyundai Solaris",
+      "type": "седан",
+      "date": "21.10.2019",
+      "owner": "Андреев П.Н.",
+      "description": "Недавно приобретенный автомобиль"
+    },
+    {
+      "id": "2",
+      "marka": "LADA",
+      "name": "LADA Granta",
+      "type": "хэтчбек",
+      "date": "09.09.2019",
+      "owner": "Федько А.А.",
+      "description": "Недавно приобретенный автомобиль"
+    },
+    {
+      "id": "3",
+      "marka": "MINI",
+      "name": "MINI Cooper S",
+      "type": "кабриолет",
+      "date": "30.11.2019",
+      "owner": "Шуриков Р.Р.",
+      "description": "Недавно приобретенный автомобиль"
+    }
+  ]
+}
